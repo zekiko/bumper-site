@@ -15,7 +15,17 @@ export const setListRendered = (data) => ({
     payload: data,
 })
 
+export const setFormRendered = (data) => ({
+    type: actionTypes.IS_FORM_RENDERED,
+    payload: data,
+})
+
 export const setIsMobile = (data) => ({
     type: actionTypes.IS_MOBILE,
+    payload: data,
+})
+
+export const setRenderNothing = (data) => ({
+    type: actionTypes.RENDER_NOTHING,
     payload: data,
 })
